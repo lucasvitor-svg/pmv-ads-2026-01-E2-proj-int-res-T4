@@ -1,43 +1,36 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A digitalização tem reconfigurado a dinâmica de oferta e consumo de serviços, especialmente por meio de plataformas digitais que reduzem custos de busca, coordenação e monitoramento, mitigam assimetrias informacionais e ampliam a eficiência na alocação de recursos ao facilitar o matching entre oferta e demanda (OECD, 2019). Esse movimento tem promovido ganhos de produtividade e reorganização de mercados tradicionalmente fragmentados.
+No entanto, no contexto brasileiro, trabalhadores que atuam por conta própria ainda apresentam níveis elevados de informalidade, particularmente em atividades de prestação de serviços pessoais (IBGE, 2024). Além disso, estudos indicam que micro e pequenos empreendedores utilizam predominantemente ferramentas informais ou de baixa complexidade, como aplicativos de mensagens e controles manuais, para gestão administrativa e relacionamento com clientes (SEBRAE, 2022). Essa combinação de informalidade estrutural e baixa digitalização sugere que, em segmentos como atividades físicas, estética e ensino personalizado, persistem práticas pouco estruturadas de agendamento e organização da demanda, gerando ineficiências operacionais e perda de previsibilidade de receita.
+Nesse cenário, o Reservo propõe o desenvolvimento de uma aplicação web voltada à organização, gestão e intermediação de agendamentos para profissionais autônomos, com foco na redução de fricções operacionais e na melhoria da eficiência na conexão entre prestadores de serviço e seus clientes.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Apesar da expansão de plataformas digitais voltadas à intermediação de serviços, o mercado de profissionais autônomos permanece caracterizado por alta fragmentação e adoção parcial de soluções tecnológicas. Embora existam ferramentas de agendamento disponíveis, sua utilização não é homogênea, e muitos profissionais ainda operam com múltiplos canais desconectados, como redes sociais, aplicativos de mensagens e controles manuais de agenda. 
+Essa combinação de ferramentas dispersas gera ineficiência operacional, como retrabalho na confirmação de horários, falhas de comunicação, dificuldade de controle de disponibilidade e baixa integração entre captação de clientes e gestão de agenda. Como resultado, observa-se subutilização da capacidade produtiva e aumento de desgaste no processo de contratação, afetando tanto a previsibilidade de receita do profissional quanto a experiência do consumidor.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver uma aplicação web denominada "Reservo", destinada a centralização do processo de agendamento de serviços prestados por profissionais autônomos e independentes, com foco na organização operacional, agilidade operacional, transparência na troca de informações, redução de fricções no processo de reserva e melhoria da experiência de usuários e clientes.
+Como objetivos específicos destacam-se:
+* Promover a centralização das informações relacionadas à agenda e à prestação do serviço;
+* Reduzir a dependência de múltiplos canais informais de comunicação para realização de reservas;
+* Melhorar a organização e previsibilidade da demanda para profissionais autônomos;
+* Facilitar o acesso dos clientes a informações claras sobre disponibilidade e serviços oferecidos;
+* Estruturar um ambiente digital que permita futura expansão para funcionalidades complementares (ex.: controle financeiro)
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Explique de forma clara a relevância da aplicação escolhida, justificando os objetivos específicos e os aspectos do software que serão aprofundados, e quantifique o impacto do problema com dados concretos (números, percentuais, indicadores) obtidos por bases oficiais ou outras fontes confiáveis, sempre citadas no padrão ABNT (no formato [Numérico] ou (AUTOR, ANO)).
+Segundo Rabelo (2020), a transformação digital parte do pressuposto de que o uso da tecnologia pode otimizar o desempenho, ampliar o alcance e garantir resultados mais eficazes, posicionando a tecnologia como o agente central da ação. Para manterem-se competitivos, os pequenos e médios empreendedores precisaram adaptar-se ao mercado, especialmente durante e após o período da pandemia, por meio da digitalização de suas operações.
+No entanto, observa-se uma assimetria tecnológica relevante: enquanto setores como o varejo e o transporte de passageiros atingiram níveis elevados de maturidade digital, o segmento de serviços prestados por profissionais autônomos ainda opera, em larga escala, sob processos informais e manuais de gestão. De acordo com pesquisa realizada pela Agência Brasileira de Desenvolvimento Industrial e pela Fundação Getúlio Vargas (ABDI; FGV, 2021), a maioria das micro e pequenas empresas brasileiras (66%) ainda se encontra em estágios iniciais de digitalização, sendo que 18% permanecem em um nível analógico e 48% são classificadas como emergentes.
+Nesse contexto, o desenvolvimento da aplicação web Reservo justifica-se pela necessidade de estruturar digitalmente o processo de reserva e intermediação do empreendedor. Ao propor uma plataforma dedicada, o projeto busca reduzir a assimetria de informação e otimizar a conexão entre oferta e demanda. Tal iniciativa não apenas promove a modernização de pequenos negócios, mas também se alinha às diretrizes do Objetivo de Desenvolvimento Sustentável 8 (ODS 8) da Organização das Nações Unidas (ONU), ao incentivar a inovação tecnológica e o crescimento econômico sustentável por meio da profissionalização do trabalho autônomo.
 
-**Relacione o problema aos Objetivos de Desenvolvimento Sustentável (ODS), indicando quais ODS e subobjetivos são atendidos e descrevendo como o projeto contribui para cada um deles, garantindo coerência entre o impacto mensurado e as metas selecionadas.**
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O projeto Reservo direciona-se a dois grupos principais, cujas necessidades se complementam dentro da plataforma: 
+Profissionais autônomos e microempreendedores que comercializam serviços baseados em agendamento e disponibilidade de horários. Este grupo abrange profissionais que, embora apresentem domínio técnico na área, não possuem ferramentas digitais estruturadas de administração, como personal trainers, cabeleireiros e professores particulares.
+Usuários que buscam conveniência, agilidade e autonomia na contratação de serviços em sua região, mais especificamente, consumidores com letramento digital que priorizam a resolução de tarefas de forma assíncrona.

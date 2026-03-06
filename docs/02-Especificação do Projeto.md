@@ -46,14 +46,31 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+### Para Profissionais
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`|
+|-------------|-------------|-------------|
+|Eu, como profissional,| quero cadastrar meus serviços com nome, duração e valor, | para apresentar claramente minha oferta aos clientes.|
+|Eu, como profissional,| desejo gerenciar minha agenda,| para controlar horários disponíveis e evitar conflitos.|
+|Eu, como profissional,| quero configurar se aprovo ou não agendamentos automaticamente, | para ter controle sobre minha rotina.|
+|Eu, como profissional, | desejo visualizar estatísticas e indicadores,| para entender minha demanda e melhorar meu desempenho.|
+|Eu, como profissional, |quero avaliar clientes após o serviço, |para manter um histórico de comportamento e pontualidade.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+### Para Clientes
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`|
+|-------------|-------------|-------------|
+|Eu, como cliente,| quero visualizar os serviços disponíveis,| para escolher rapidamente o que desejo contratar.|
+|Eu, como cliente,| desejo consultar horários livres de um profissional, |para agendar no momento mais conveniente.|
+|Eu, como cliente,| quero realizar um agendamento online, |para não depender de mensagens ou ligações.|
+|Eu, como cliente,| desejo receber notificações e lembretes, |para não esquecer meus compromissos.|
+|Eu, como cliente,| quero avaliar o profissional após o serviço, |para ajudar outros usuários e melhorar a plataforma.|
+
+### Para Ambos
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`|
+|-------------|-------------|-------------|
+|Eu, como usuário do sistema (cliente ou profissional),| quero editar meus dados pessoais, |para manter minhas informações atualizadas.|
+|Eu como usuário do sistema (cliente ou profissional), |desejo acessar meu perfil público, |para visualizar avaliações e informações compartilhadas.|
 
 
 ## Requisitos
@@ -62,33 +79,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|ID    | Título | Descrição do Requisito  | Prioridade |
+|------|--------|-------------------------|------------|
+|**RF-001**|**Cadastro de usuários**| O sistema deve permitir que usuários realizem cadastro na plataforma, informando dados como nome, e-mail, telefone e senha, para possibilitar o acesso às funcionalidades do sistema.| ALTA | 
+|**RF-002**|**Autenticação de usuários**| O sistema deve permitir que usuários autenticados realizem login na plataforma utilizando e-mail e senha previamente cadastrados, bem como encerrar sua sessão por meio da funcionalidade de logout. | ALTA |
+|**RF-003**|**Gerenciamento de serviços**| O sistema deve permitir que profissionais cadastrem, visualizem, atualizem e removam serviços oferecidos, informando nome do serviço, descrição, duração e valor.| ALTA |
+|**RF-004**|**Gerenciamento de agenda**|O sistema deve permitir que profissionais configurem sua agenda de atendimento, definindo horários disponíveis, bloqueando períodos e gerenciando sua disponibilidade para agendamentos.|ALTA|
+|**RF-005**|**Realização de agendamentos**|O sistema deve permitir que clientes realizem agendamentos de serviços disponíveis na plataforma, selecionando o profissional, o serviço desejado, a data e o horário disponíveis.|ALTA|
+|**RF-006**|**Cancelamento ou remarcação de agendamentos**|O sistema deve permitir que clientes e profissionais cancelem ou remarquem agendamentos previamente realizados, atualizando automaticamente a disponibilidade da agenda.|ALTA|
+|**RF-007**|**Busca de profissionais e serviços**|O sistema deve permitir que clientes pesquisem profissionais e serviços disponíveis na plataforma por meio de uma ferramenta de busca.|ALTA|
+|**RF-008**|**Visualização da agenda do cliente**|O sistema deve permitir que clientes visualizem seus agendamentos futuros e o histórico de serviços realizados na plataforma.|ALTA|
+|**RF-009**|**Sistema de avaliações**|O sistema deve permitir que clientes avaliem profissionais após a realização de um serviço, atribuindo uma nota e registrando comentários sobre o atendimento.|ALTA|
+|**RF-010**|**Perfil público de profissionais**|O sistema deve disponibilizar páginas de perfil público para profissionais, contendo informações como biografia, serviços oferecidos, avaliações recebidas e média de classificação.|MÉDIA|
+|**RF-011**|**Painel de estatísticas para profissionais**|O sistema deve disponibilizar aos profissionais um painel com indicadores e estatísticas relacionadas à sua atividade na plataforma, como número de atendimentos realizados, serviços mais agendados e avaliações recebidas.|MÉDIA|
+|**RF-012**|**Notificações automáticas**|O sistema deve enviar notificações automáticas aos usuários sobre confirmações, cancelamentos, alterações e lembretes de agendamentos.|MÉDIA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|**RNF-001**| O sistema deve garantir a proteção dos dados pessoais de clientes e profissionais, utilizando criptografia, autenticação segura e conformidade com normas de proteção de dados. | ALTA | 
+|**RNF-002**| A plataforma deve ser capaz de suportar múltiplos acessos simultâneos, mantendo tempo de resposta inferior a 2 segundos em operações comuns, como login, busca e agendamento. | MÉDIA |
+|**RNF-003**|O sistema deve estar disponível para uso pelo menos 99% do tempo mensal, garantindo estabilidade para agendamentos e consultas.| MÉDIA |
+|**RNF-004**|A aplicação deve funcionar corretamente nos principais navegadores modernos (Chrome, Firefox, Edge, Safari) e em dispositivos móveis.| MÉDIA |
+|**RNF-005**|O sistema deve ser desenvolvido com arquitetura modular, facilitando correções, atualizações e expansão futura para funcionalidades como controle financeiro.| MÉDIA | 
 
 ## Restrições
 

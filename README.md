@@ -1,19 +1,22 @@
-# TÍTULO DO PROJETO
+# RESERVO
 
-`CURSO`
+Análise e desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Desenvolvimento de uma Aplicação Interativa
 
-`SEMESTRE`
+2° Semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gabriela Alves Ignácio
+* Gregório Ribeiro de Miranda
+* Kennedy Figueiredo de Lima
+* Lucas Vitor dos Santos
+* Priscilla Avelino dos Santos
+* Samuel Meira Miglioli
+
 
 ## Orientador
 

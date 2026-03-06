@@ -6,7 +6,7 @@ Desenvolvimento de uma Aplicação Interativa
 
 2° Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Desenvolvimento de uma aplicação interativa como proposta de solução para um problema escolhida pelo grupo.
 
 ## Integrantes
 

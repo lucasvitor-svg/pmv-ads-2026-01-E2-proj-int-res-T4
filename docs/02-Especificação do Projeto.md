@@ -9,10 +9,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 ### Persona 1 -  Ana Paula Ribeiro (Cliente)
-|-----|------|-----------|
-| <img width="300" height="300" alt="persona1" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-01-E2-proj-int-Reservo-T4-G3/blob/main/docs/img/AnaPaula_Persona.png"/> | Ana Paula Ribeiro | Idade: 29 anos
-Profissão: Analista de Marketing
-Localização: Belo Horizonte – MG
+| FOTO | NOME | DESCRIÇÂO |
+|------|------|-----------|
+| <img width="300" height="300" alt="persona1" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-01-E2-proj-int-Reservo-T4-G3/blob/main/docs/img/AnaPaula_Persona.png"/> / | Ana Paula Ribeiro | Idade: 29 anos <br>
+Profissão: Analista de Marketing <br>
+Localização: Belo Horizonte – MG <br>
 Tecnologia: Alta familiaridade com aplicativos e serviços digitais
 Frustração atual: Precisa entrar em contato via WhatsApp, Instagram ou telefone para agendar serviços simples. Muitas vezes não recebe retorno imediato. |
 

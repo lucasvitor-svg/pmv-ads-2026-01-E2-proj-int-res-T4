@@ -94,6 +94,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |**RF-011**|**Painel de estatísticas para profissionais**|O sistema deve disponibilizar aos profissionais um painel com indicadores e estatísticas relacionadas à sua atividade na plataforma, como número de atendimentos realizados, serviços mais agendados e avaliações recebidas.|MÉDIA|
 |**RF-012**|**Notificações automáticas**|O sistema deve enviar notificações automáticas aos usuários sobre confirmações, cancelamentos, alterações e lembretes de agendamentos.|MÉDIA|
 
+### Relacionamentos do Requisitos Funcionais
+
+|Requisitos Relacionados ao Gerenciamento de Usuários|
+|ID     | Requisito  | Responsável | Página |
+|**RF-001**|Cadastro de usuários|----|---- |
+|**RF-002**|Autenticação de usuários|----|---- |
+
+|Requisitos Relacionados aos Profissionais|
+|ID     | Requisito  | Responsável | Página |
+|**RF-003**|Gerenciamento de Serviços|----|---- |
+|**RF-004**|Gerenciamento de Agenda|----|---- |
+|**RF-010**|Perfil Público dos Profissionais|----|---- |
+|**RF-011**|Painel de Estatísticas para os Profissionais|----|---- |
+
+|Requisitos Relacionados aos Clientes|
+|ID     | Requisito  | Responsável | Página |
+|**RF-005**|Realização de Agendamentos|----|---- |
+|**RF-006**|Cancelamento ou Remarcação de Agendamentos|----|---- |
+|**RF-008**|Visualização da Agenda do Cliente|----|---- |
+
+|Requisitos Relacionados à Interação dos Usuários|
+|ID     | Requisito  | Responsável | Página |
+|**RF-007**|Busca de Profissionais e Serviços|----|---- |
+|**RF-009**|Sistema de Avaliações|----|---- |
+|**RF-012**|Notificações Automáticas|----|---- |
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |

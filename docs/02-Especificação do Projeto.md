@@ -94,7 +94,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |**RF-011**|**Painel de estatísticas para profissionais**|O sistema deve disponibilizar aos profissionais um painel com indicadores e estatísticas relacionadas à sua atividade na plataforma, como número de atendimentos realizados, serviços mais agendados e avaliações recebidas.|MÉDIA|
 |**RF-012**|**Notificações automáticas**|O sistema deve enviar notificações automáticas aos usuários sobre confirmações, cancelamentos, alterações e lembretes de agendamentos.|MÉDIA|
 
-### Relacionamentos do Requisitos Funcionais
+### Relacionamentos dos Requisitos Funcionais
 
 #### Requisitos Relacionados ao Gerenciamento de Usuários
 |ID     | Requisito  | Responsável | Página |

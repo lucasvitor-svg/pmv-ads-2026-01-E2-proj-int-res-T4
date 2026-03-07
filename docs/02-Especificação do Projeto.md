@@ -110,14 +110,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |**RF-010**|Perfil Público dos Profissionais|----|---- |
 |**RF-011**|Painel de Estatísticas para os Profissionais|----|---- |
 
-Requisitos Relacionados aos Clientes
+#### Requisitos Relacionados aos Clientes
 |ID     | Requisito  | Responsável | Página |
 |-------|------------|-------------|--------|
 |**RF-005**|Realização de Agendamentos|----|---- |
 |**RF-006**|Cancelamento ou Remarcação de Agendamentos|----|---- |
 |**RF-008**|Visualização da Agenda do Cliente|----|---- |
 
-Requisitos Relacionados à Interação dos Usuários
+#### Requisitos Relacionados à Interação dos Usuários
 |ID     | Requisito  | Responsável | Página |
 |-------|------------|-------------|--------|
 |**RF-007**|Busca de Profissionais e Serviços|----|---- |

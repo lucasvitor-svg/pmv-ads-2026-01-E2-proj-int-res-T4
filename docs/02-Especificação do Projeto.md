@@ -96,26 +96,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Relacionamentos do Requisitos Funcionais
 
-|Requisitos Relacionados ao Gerenciamento de Usuários|
+#### Requisitos Relacionados ao Gerenciamento de Usuários
 |ID     | Requisito  | Responsável | Página |
+|-------|------------|-------------|--------|
 |**RF-001**|Cadastro de usuários|----|---- |
 |**RF-002**|Autenticação de usuários|----|---- |
 
-|Requisitos Relacionados aos Profissionais|
+#### Requisitos Relacionados aos Profissionais
 |ID     | Requisito  | Responsável | Página |
+|-------|------------|-------------|--------|
 |**RF-003**|Gerenciamento de Serviços|----|---- |
 |**RF-004**|Gerenciamento de Agenda|----|---- |
 |**RF-010**|Perfil Público dos Profissionais|----|---- |
 |**RF-011**|Painel de Estatísticas para os Profissionais|----|---- |
 
-|Requisitos Relacionados aos Clientes|
+Requisitos Relacionados aos Clientes
 |ID     | Requisito  | Responsável | Página |
+|-------|------------|-------------|--------|
 |**RF-005**|Realização de Agendamentos|----|---- |
 |**RF-006**|Cancelamento ou Remarcação de Agendamentos|----|---- |
 |**RF-008**|Visualização da Agenda do Cliente|----|---- |
 
-|Requisitos Relacionados à Interação dos Usuários|
+Requisitos Relacionados à Interação dos Usuários
 |ID     | Requisito  | Responsável | Página |
+|-------|------------|-------------|--------|
 |**RF-007**|Busca de Profissionais e Serviços|----|---- |
 |**RF-009**|Sistema de Avaliações|----|---- |
 |**RF-012**|Notificações Automáticas|----|---- |
